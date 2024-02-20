@@ -1,7 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Prompt:wght@900&display=swap");
 
+:root {
+  --dark-grey: #0e0f10;
+}
+
 body {
-  background-color: #171717;
+  background-color: #020202;
   color: white;
   display: flex;
   justify-content: center;
@@ -11,10 +15,87 @@ body {
   font-family: "JetBrains Mono", monospace;
 }
 
-main{
+a {
+  text-decoration: none;
+}
+
+/* --------------- CSS JÁ PRONTOS --------------- */
+
+.border-radius {
+  border-radius: 13px;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.grey-text {
+  color: #8a8a8a;
+}
+.white-text {
+  color: #ffffff;
+}
+
+/* ------------- FIM CSS JÁ PRONTOS ------------- */
+
+main {
   width: 100%;
-  max-width: 800px;
+  max-width: 900px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+}
+
+.projects-card {
+  background-color: var(--dark-grey);
+  transition: all 0.2s ease-in-out;
+  padding: 1.2rem;
+  max-width: 100%;
+  min-width: max-content;
+  margin-bottom: 10px;
+  align-items: center;
+  height: fit-content;
+}
+
+.projects-card:hover {
+  transform: scale(1.02);
+}
+.projects-card .title {
+  line-height: 1.5rem;
+  margin: 0 0 5px;
+}
+.projects-card .desc {
+  margin: 0;
+}
+.gradient {
+  aspect-ratio: 1;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.g1 {
+  background-image: linear-gradient(
+    58.2deg,
+    rgb(40, 92, 212) -3%,
+    rgba(171, 53, 163) 49.3%,
+    rgba(255, 204, 112) 97.7%
+  );
+}
+.g2 {
+  background-image: linear-gradient(
+    120deg,
+    rgba(253, 189, 85, 1) 7.8%,
+    rgba(249, 131, 255, 1) 100.3%
+  );
+}
+.g3 {
+  background-image: linear-gradient(
+    109.6deg,
+    rgba(61, 245, 167, 1) 11.2%,
+    rgba(9, 111, 224, 1) 91.1%
+  );
 }
