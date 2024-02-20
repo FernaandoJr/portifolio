@@ -1,0 +1,17 @@
+.contact-row {
+    align-items: center;
+    height: fit-content;
+  }
+  
+  .contact-row p {
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+  
+  .contact-row img {
+    aspect-ratio: 1;
+    height: 2rem;
+    margin: 10px;
+    background-color: var();
+  }
+  

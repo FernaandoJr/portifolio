@@ -1,0 +1,55 @@
+.skill-progress p {
+  justify-content: flex-start;
+  font-size: 1.5rem;
+}
+
+.skill-progress{
+    width: 60%;
+}
+
+.skill-progress .bar {
+  background-color: var(--line);
+  height: 5px;
+  border-radius: 1rem;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.bar .bar-status {
+  background-color: #7721fd;
+  background-image: linear-gradient(19deg, #7721fd 0%, #b721ff 100%);
+  height: 100%;
+  border-radius: 1rem;
+}
+
+.bar:last-child {
+  margin-bottom: 0;
+}
+
+.skill-progress span {
+  font-size: 1rem;
+  align-self: center;
+  display: flex;
+}
+
+.bar-status.html {
+  width: 95%;
+}
+.bar-status.css {
+  width: 90%;
+}
+.bar-status.js {
+  width: 70%;
+}
+.bar-status.c {
+  width: 50%;
+}
+.bar-status.py {
+  width: 45%;
+}
+.bar-status.sql {
+  width: 40%;
+}
+.bar-status.php {
+  width: 60%;
+}
