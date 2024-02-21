@@ -94,7 +94,5 @@ section .comment.title {
 }
 
 @media screen and (max-width: 600px){
-  .line{
-    margin: 2rem 0 2rem 0;
-  }
+
 }
