@@ -92,3 +92,9 @@ section .comment.title {
   margin-bottom: 25px;
   font-weight: 400;
 }
+
+@media screen and (max-width: 600px){
+  .line{
+    margin: 2rem 0 2rem 0;
+  }
+}
