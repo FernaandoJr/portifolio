@@ -12,9 +12,10 @@ font-family: "JetBrains Mono", monospace;
   --light-grey: #1e2022;
 
   --fundo: #121212;
-  --comment: #7b7b7b;
+  --comment: #686868;
   --white: #f4f4f4;
   --line: #2e2e2e;
+  --acent: #9f6eec;
 }
 
 body {

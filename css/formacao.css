@@ -1,4 +1,6 @@
-
+:root{
+  --acent: #a47ce3;
+}
 
 .container {
   width: 100%;
@@ -29,10 +31,10 @@
   display: block;
   top: 1.5rem;
   position: absolute;
-  left: -7px;
+  left: -8px;
   border-radius: 10px;
   content: "";
-  border: 2px solid rgba(0, 0, 0, 0.3);
+  border: 3px solid #9e6eec85;
   background: white;
 }
 .timeline-item:last-child {
@@ -44,8 +46,18 @@
 }
 .timeline-item p {
     font-size: 1rem;
+    color: var(--comment);
+    width: 70%;
 }
 
 .timeline-item:first-child {
     border-image: linear-gradient(to top, rgba(255, 255, 255, 0.3) 80%, rgba(111, 255, 0, 0)) 1 100%;
   }
+
+.timeline-item h1 span{
+  color: var(--acent);
+}
+
+.timeline-item h1 span::before{
+  content: " • ";
+}
