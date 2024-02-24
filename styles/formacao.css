@@ -1,8 +1,51 @@
 :root{
-  --acent: #a47ce3;
+  --roxo-600: #16032e;
+  --roxo-500: #210545;
+  --roxo-400: #2c075c;
+  --roxo-300: #380974;
+  --roxo-200: #430a8b;
+  --roxo-100: #4e0ca2;
+  --roxo-000: #590eb9;
+  --roxo-500: #640fd0;
+  --roxo-400: #6f11e7;
+  --roxo-300: #7d29e9;
+  --roxo-200: #8c41ec;
+  --roxo-100: #9a58ee;
+
+  --rosa-1200: #250733;
+  --rosa-1100: #370a4c;
+  --rosa-1000: #490d66;
+  --rosa-900: #5c1180;
+  --rosa-800: #6e1499;
+  --rosa-700: #8017b3;
+  --rosa-600: #921acc;
+  --rosa-500: #a51ee6;
+  --rosa-400: #b721ff;
+  --rosa-300: #be37ff;
+  --rosa-200: #c54dff;
+  --rosa-100: #cd64ff;
+
+  --neutro-1700: #ffffff;
+  --neutro-1600: #e6e6e6;
+  --neutro-1500: #cccccc;
+  --neutro-1400: #999999;
+  --neutro-1300: #808080;
+  --neutro-1200: #666666;
+  --neutro-1100: #4c4c4c;
+  --neutro-1000: #333333;
+  --neutro-900: #171717;
+  --neutro-800: #151515;
+  --neutro-700: #121212;
+  --neutro-600: #101010;
+  --neutro-500: #0d0d0d;
+  --neutro-400: #0a0a0a;
+  --neutro-300: #080808;
+  --neutro-200: #050505;
+  --neutro-100: #030303;
+  --neutro-000: #000000;
 }
 
-.container {
+.formacao > .container {
   width: 100%;
   margin-left: .5rem;
 }
@@ -10,7 +53,7 @@
 .timeline-item {
   padding: 3em 2em 2em 1.5rem;
   position: relative;
-  color: rgba(255, 255, 255, 0.7);
+  color: var(--neutro-1700);
   border-left: 2px solid rgba(255, 255, 255, 0.3);
 }
 
@@ -23,7 +66,7 @@
   display: block;
   font-weight: 700;
   font-size: 0.785rem;
-  color: var(--comment);
+  color: var(--neutro-1300);
 }
 .timeline-item::after {
   width: 10px;
@@ -34,8 +77,9 @@
   left: -8px;
   border-radius: 10px;
   content: "";
-  border: 3px solid #9e6eec85;
+  border: 3px solid var(--neutro-1500);
   background: white;
+  
 }
 .timeline-item:last-child {
   border-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 60%, rgba(0, 0, 0, 0)) 1 100%;
@@ -46,7 +90,7 @@
 }
 .timeline-item p {
     font-size: 1rem;
-    color: var(--comment);
+    color: var(--neutro-1200);
     width: 70%;
 }
 
@@ -55,7 +99,7 @@
   }
 
 .timeline-item h1 span{
-  color: var(--acent);
+  color: var(--roxo-100);
 }
 
 .timeline-item h1 span::before{

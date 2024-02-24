@@ -4,7 +4,8 @@ const observer = new IntersectionObserver(entries => {
       // If the element is visible
       if (entry.isIntersecting) {
         // Add the animation class
-        entry.target.classList.add('bar-status-animation');
+          entry.target.classList.add('bar-status-animation');
+          
       }
     });
   });

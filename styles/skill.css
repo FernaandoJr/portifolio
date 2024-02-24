@@ -1,3 +1,53 @@
+:root{
+  --roxo-600: #16032e;
+  --roxo-500: #210545;
+  --roxo-400: #2c075c;
+  --roxo-300: #380974;
+  --roxo-200: #430a8b;
+  --roxo-100: #4e0ca2;
+  --roxo-000: #590eb9;
+  --roxo-500: #640fd0;
+  --roxo-400: #6f11e7;
+  --roxo-300: #7d29e9;
+  --roxo-200: #8c41ec;
+  --roxo-100: #9a58ee;
+
+  --rosa-1200: #250733;
+  --rosa-1100: #370a4c;
+  --rosa-1000: #490d66;
+  --rosa-900: #5c1180;
+  --rosa-800: #6e1499;
+  --rosa-700: #8017b3;
+  --rosa-600: #921acc;
+  --rosa-500: #a51ee6;
+  --rosa-400: #b721ff;
+  --rosa-300: #be37ff;
+  --rosa-200: #c54dff;
+  --rosa-100: #cd64ff;
+
+  --neutro-1700: #ffffff;
+  --neutro-1600: #e6e6e6;
+  --neutro-1500: #cccccc;
+  --neutro-1400: #999999;
+  --neutro-1300: #808080;
+  --neutro-1200: #666666;
+  --neutro-1100: #4c4c4c;
+  --neutro-1000: #333333;
+  --neutro-900: #171717;
+  --neutro-800: #151515;
+  --neutro-700: #121212;
+  --neutro-600: #101010;
+  --neutro-500: #0d0d0d;
+  --neutro-400: #0a0a0a;
+  --neutro-300: #080808;
+  --neutro-200: #050505;
+  --neutro-100: #030303;
+  --neutro-000: #000000;
+}
+
+section.skills{
+  margin-bottom: 15px;
+}
 
 .skill-progress h1 {
   justify-content: flex-start;
@@ -14,20 +64,25 @@
   width: 100%;
 }
 
+.skill-progress span{
+  color: var(--neutro-1200);
+}
+
 .skill-progress .bar {
-  background-color: var(--line);
+  background-color: var(--neutro-700);
   height: 10px;
   border-radius: 100rem;
   width: 100%;
   margin-bottom: 15px;
 }
 
+
+
 .bar .bar-status {
-  background-color: #7721fd;
-  background-image: linear-gradient(19deg, #7721fd 0%, #b721ff 100%);
-  height: 100%;
+  background-image: linear-gradient(40deg, var(--roxo-forte) 0%, var(--roxo-900) 100%);
+  height: 0;
   border-radius: 1rem;
-  margin-top: 2px;
+
 }
 
 .bar:last-child {
@@ -90,8 +145,7 @@
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .bar-status-animation {
-    animation: progress 2s cubic-bezier(0.25, 1, 0.5, 1) 0s 1 normal none;
-  }
+.bar-status-animation {
+  height: 100% !important;
+  animation: progress 3s cubic-bezier(.19,.78,.22,1) 0s 1 normal none;
 }

@@ -6,23 +6,52 @@
 font-family: "Inter", sans-serif;
 font-family: "JetBrains Mono", monospace;
 */
-
-:root {
-  --dark-grey: #0e0f10;
-  --light-grey: #1e2022;
-
-  --fundo: #121212;
-  --comment: #686868;
-  --white: #f4f4f4;
-  --line: #2e2e2e;
-  --acent: #9f6eec;
+:root{
+  --roxo-forte: #6f11e7;
+  --roxo-1300: #d47aff;
+  --roxo-1200: #cd64ff;
+  --roxo-1100: #c54dff;
+  --roxo-1000: #be37ff;
+  --roxo-900: #b721ff;
+  --roxo-800: #a51ee6;
+  --roxo-700: #921acc;
+  --roxo-600: #8017b3;
+  --roxo-500: #6e1499;
+  --roxo-400: #5c1180;
+  --roxo-300: #490d66;
+  --roxo-200: #370a4c;
+  --roxo-100: #250733;
+  --roxo-000: #120319;
+  --roxo-500: #24044d;
+  --roxo-400: #36165e;
+  --roxo-300: #563186;
+  --roxo-200: #7952aa;
+  --roxo-100: #9768d3;
+  --neutro-1700: #ffffff;
+  --neutro-1600: #e6e6e6;
+  --neutro-1500: #cccccc;
+  --neutro-1400: #999999;
+  --neutro-1300: #808080;
+  --neutro-1200: #666666;
+  --neutro-1100: #4c4c4c;
+  --neutro-1000: #333333;
+  --neutro-900: #171717;
+  --neutro-800: #151515;
+  --neutro-700: #121212;
+  --neutro-600: #101010;
+  --neutro-500: #0d0d0d;
+  --neutro-400: #0a0a0a;
+  --neutro-300: #080808;
+  --neutro-200: #050505;
+  --neutro-100: #030303;
+  --neutro-000: #000000;
 }
 
 body {
-  background-color: var(--fundo);
-  color: var(--white);
+  background-color: var(--neutro-300);
   display: flex;
   justify-content: center;
+  color: var(--neutro-1700);
 }
 
 * {
@@ -32,7 +61,7 @@ body {
 
 a {
   text-decoration: none;
-  color: var(--white);
+  color: var(--neutro-1700);
 }
 
 /* --------------- CSS JÁ PRONTOS --------------- */
@@ -50,16 +79,9 @@ a {
 }
 
 .comment {
-  color: var(--comment);
+  color: var(--neutro-1200);
 }
 
-.white-text {
-  color: #ffffff;
-}
-
-.rem-1 {
-  font-size: 1rem;
-}
 .grey-hover {
   transition: all 0.15s ease-in-out;
 }
@@ -69,23 +91,21 @@ a {
 }
 
 .grey-text {
-  color: var(--comment);
+  color: var(--neutro-1000);
 }
 
 /* ------------- FIM CSS JÁ PRONTOS ------------- */
 
 main {
   width: 100%;
-  max-width: 900px;
+  max-width: 850px;
   flex-wrap: wrap;
 }
 
-
 .line {
   width: 100%;
-  background-color: var(--line);
+  background-color: var(--neutro-1000);
   height: 1px;
-  border: 1rem;
 }
 
 section .comment.title {
@@ -102,3 +122,4 @@ section{
 @media screen and (max-width: 600px){
 
 }
+
