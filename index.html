@@ -21,27 +21,24 @@
       property="og:image"
       content="https://media.discordapp.net/attachments/365885779647528960/1210793917386067978/FvODZICXsBwSvnX.jpeg"
     />
+    <link rel="shortcut icon" href="./img/svg/fav.svg" type="image/x-icon">
     <link rel="stylesheet" href="./styles/index.css" />
     <link rel="stylesheet" href="./styles/skill.css" />
     <link rel="stylesheet" href="./styles/sobre.css" />
     <link rel="stylesheet" href="./styles/contact.css" />
     <link rel="stylesheet" href="./styles/project.css" />
     <link rel="stylesheet" href="./styles/formacao.css" />
+    <link rel="stylesheet" href="./styles/home.css" />
     <title>FernaandoJr</title>
   </head>
-  <body>
+  <body onload="typeWriter()">
     <main class="flex-column">
       <!-- HOME -->
       <section class="home">
         <h1>// Fernando Júnior</h1>
 
-        <p class="rem-1">
-          >> Cursando Análise e Desenvolvimento de Sistemas na Fatec Mogi Mirim
-        </p>
-        <p class="rem-1">
-          Entusiasta em tecnologia e apaixonado por programação/desenvolvimento
-          e criar soluções e resolver problemas!
-        </p>
+        <p class="rem-1" id="type"></p>
+
       </section>
       <div class="line"></div>
       <!-- SOBRE -->
@@ -59,7 +56,9 @@
           minha jornada, levando-me a explorar possibilidades e aprimorar
           habilidades constantemente.
         </p>
-        <button>Visualizar currículo</button>
+        <a target="_blank" href="https://drive.google.com/file/d/1h4z-iNWxtM1szxfhs2U2ixg7a6mIzQXR/view?usp=drive_link">
+          <button>Visualizar currículo</button>
+        </a>
       </section>
       <div class="line"></div>
       <!-- FORMAÇÃO E CURSOS -->
@@ -229,6 +228,7 @@
       </section>
       <script src="./js/bar.js"></script>
       <script src="./js/email.js"></script>
+      <script src="./js/home_txt.js"></script>
     </main>
   </body>
 </html>

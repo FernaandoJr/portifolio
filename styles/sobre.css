@@ -1,9 +1,18 @@
+:root{
+  --roxo-300: #7d29e9;
+  --roxo-200: #8c41ec;
+}
+
 .sobre{
     margin-bottom: 15px !important;
 }
 
 .about p:nth-child(3){
     margin-top: 15px;
+}
+
+a > button{
+  margin: 1.5rem 0 0 0;
 }
 
 button {
@@ -23,7 +32,7 @@ button {
   
   button:focus,
   button:hover {
-    color: #fff;
+    color: var(--roxo-200);
   }
   
   button:focus:after,
@@ -40,7 +49,7 @@ button {
     position: absolute;
     width: 0%;
     height: 2px;
-    background-color: #fff;
+    background-color: var(--roxo-200);
     transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
     transition-duration: 400ms;
     transition-property: width, left;
