@@ -22,11 +22,3 @@ This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LI
 
 **Thank you for visiting my repository!** 😊
 
-
-
-
-## 📄 License
-This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LICENSE) file for details.
-
-**Thank you for visiting my repository!** 😊
-
