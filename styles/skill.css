@@ -118,7 +118,10 @@ section.skills{
   width: 40%;
 }
 .bar-status.php {
-  width: 50%;
+  width: 35%;
+}
+.bar-status.java {
+  width: 25%;
 }
 
 @media screen and (max-width: 900px) {
